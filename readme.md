@@ -1,4 +1,4 @@
-# Notion Blog
+# Notog
 
 This is an example Next.js project that shows Next.js' upcoming SSG (static-site generation) support using Notion's **private** API for a backend.
 
@@ -16,20 +16,7 @@ Deploy your own Notion blog with Vercel.
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/ijjk/notion-blog/tree/main&project-name=notion-blog&repository-name=notion-blog)
 
-or
 
-1. Clone this repo `git clone https://github.com/ijjk/notion-blog.git`
-2. Configure project with [`vc`](https://vercel.com/download)
-3. Add your `NOTION_TOKEN` and `BLOG_INDEX_ID` as environment variables in [your project](https://vercel.com/docs/integrations?query=envir#project-level-apis/project-based-environment-variables). See [here](#getting-blog-index-and-token) for how to find these values
-4. Do final deployment with `vc`
-
-Note: if redeploying with `vc` locally and you haven't made any changes to the application's source and only edited in Notion you will need use `vc -f` to bypass build de-duping
-
-## Creating Your Pages Table
-
-**Note**: this is auto run if a table isn't detected the first time visiting `/blog`
-
-### Using the Pre-Configured Script
 
 1. Create a blank page in Notion
 2. Clone this repo `git clone https://github.com/ijjk/notion-blog.git`
@@ -78,8 +65,4 @@ To run the project locally you need to follow steps 1 and 2 of [deploying](#depl
 3. Run next in development mode `yarn dev`
 4. Build and run in production mode `yarn build && yarn start`
 
-## Credits
 
-- Guillermo Rauch [@rauchg](https://twitter.com/rauchg) for the initial idea
-- Shu Ding [@shuding\_](https://twitter.com/shuding_) for the design help
-- Luis Alvarez [@luis_fades](https://twitter.com/luis_fades) for design help and bug catching
